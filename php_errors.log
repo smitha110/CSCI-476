@@ -1,0 +1,61 @@
+[25-Jan-2017 16:50:53 UTC] PHP Warning:  Illegal string offset 'notifications' in /home/ubuntu/workspace/wp-content/plugins/contact-form-add/admin/core/class/class-smuzform-notification-manager.php on line 35
+[25-Jan-2017 16:50:53 UTC] PHP Stack trace:
+[25-Jan-2017 16:50:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[25-Jan-2017 16:50:53 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:91
+[25-Jan-2017 16:50:53 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[25-Jan-2017 16:50:53 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:323
+[25-Jan-2017 16:50:53 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[25-Jan-2017 16:50:53 UTC] PHP   6. SmuzForm_Public_Storage->api() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[25-Jan-2017 16:50:53 UTC] PHP   7. SmuzForm_Public_Storage->ajaxSubmit() /home/ubuntu/workspace/wp-content/plugins/contact-form-add/public/core/class/class-smuzform-public-storage.php:38
+[25-Jan-2017 16:50:53 UTC] PHP   8. SmuzForm_Public_Storage->saveEntry() /home/ubuntu/workspace/wp-content/plugins/contact-form-add/public/core/class/class-smuzform-public-storage.php:394
+[25-Jan-2017 16:50:53 UTC] PHP   9. SmuzForm_Public_Storage->sendNotifications() /home/ubuntu/workspace/wp-content/plugins/contact-form-add/public/core/class/class-smuzform-public-storage.php:443
+[25-Jan-2017 16:50:53 UTC] PHP  10. SmuzForm_Notification_Manager->sendNotifications() /home/ubuntu/workspace/wp-content/plugins/contact-form-add/public/core/class/class-smuzform-public-storage.php:453
+[25-Jan-2017 16:50:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wp-content/plugins/contact-form-add/admin/core/class/class-smuzform-notification-manager.php on line 35
+[25-Jan-2017 16:50:53 UTC] PHP Stack trace:
+[25-Jan-2017 16:50:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[25-Jan-2017 16:50:53 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:91
+[25-Jan-2017 16:50:53 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[25-Jan-2017 16:50:53 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:323
+[25-Jan-2017 16:50:53 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[25-Jan-2017 16:50:53 UTC] PHP   6. SmuzForm_Public_Storage->api() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[25-Jan-2017 16:50:53 UTC] PHP   7. SmuzForm_Public_Storage->ajaxSubmit() /home/ubuntu/workspace/wp-content/plugins/contact-form-add/public/core/class/class-smuzform-public-storage.php:38
+[25-Jan-2017 16:50:53 UTC] PHP   8. SmuzForm_Public_Storage->saveEntry() /home/ubuntu/workspace/wp-content/plugins/contact-form-add/public/core/class/class-smuzform-public-storage.php:394
+[25-Jan-2017 16:50:53 UTC] PHP   9. SmuzForm_Public_Storage->sendNotifications() /home/ubuntu/workspace/wp-content/plugins/contact-form-add/public/core/class/class-smuzform-public-storage.php:443
+[25-Jan-2017 16:50:53 UTC] PHP  10. SmuzForm_Notification_Manager->sendNotifications() /home/ubuntu/workspace/wp-content/plugins/contact-form-add/public/core/class/class-smuzform-public-storage.php:453
+[25-Jan-2017 21:11:27 UTC] PHP Warning:  max(): Array must contain at least one element in /home/ubuntu/workspace/wp-content/plugins/contact-form-7-mailchimp-extension/cf7-mch-ext.php on line 57
+[25-Jan-2017 21:11:27 UTC] PHP Stack trace:
+[25-Jan-2017 21:11:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[25-Jan-2017 21:11:27 UTC] PHP   2. activate_plugin() /home/ubuntu/workspace/wp-admin/plugins.php:42
+[25-Jan-2017 21:11:27 UTC] PHP   3. do_action() /home/ubuntu/workspace/wp-admin/includes/plugin.php:618
+[25-Jan-2017 21:11:27 UTC] PHP   4. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[25-Jan-2017 21:11:27 UTC] PHP   5. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:323
+[25-Jan-2017 21:11:27 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:300}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:300
+[25-Jan-2017 21:11:27 UTC] PHP   7. mce_act_redirect() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:300
+[25-Jan-2017 21:11:27 UTC] PHP   8. mc_get_latest_item() /home/ubuntu/workspace/wp-content/plugins/contact-form-7-mailchimp-extension/cf7-mch-ext.php:83
+[25-Jan-2017 21:11:27 UTC] PHP   9. max() /home/ubuntu/workspace/wp-content/plugins/contact-form-7-mailchimp-extension/cf7-mch-ext.php:57
+[25-Jan-2017 21:14:30 UTC] PHP Warning:  max(): Array must contain at least one element in /home/ubuntu/workspace/wp-content/plugins/contact-form-7-mailchimp-extension/cf7-mch-ext.php on line 57
+[25-Jan-2017 21:14:30 UTC] PHP Stack trace:
+[25-Jan-2017 21:14:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[25-Jan-2017 21:14:30 UTC] PHP   2. WP_List_Table->display() /home/ubuntu/workspace/wp-admin/plugins.php:534
+[25-Jan-2017 21:14:30 UTC] PHP   3. WP_List_Table->display_rows_or_placeholder() /home/ubuntu/workspace/wp-admin/includes/class-wp-list-table.php:1141
+[25-Jan-2017 21:14:30 UTC] PHP   4. WP_Plugins_List_Table->display_rows() /home/ubuntu/workspace/wp-admin/includes/class-wp-list-table.php:1213
+[25-Jan-2017 21:14:30 UTC] PHP   5. WP_Plugins_List_Table->single_row() /home/ubuntu/workspace/wp-admin/includes/class-wp-plugins-list-table.php:536
+[25-Jan-2017 21:14:30 UTC] PHP   6. apply_filters() /home/ubuntu/workspace/wp-admin/includes/class-wp-plugins-list-table.php:720
+[25-Jan-2017 21:14:30 UTC] PHP   7. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[25-Jan-2017 21:14:30 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:300}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:300
+[25-Jan-2017 21:14:30 UTC] PHP   9. mc_settings_link() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:300
+[25-Jan-2017 21:14:30 UTC] PHP  10. mc_get_latest_item() /home/ubuntu/workspace/wp-content/plugins/contact-form-7-mailchimp-extension/cf7-mch-ext.php:67
+[25-Jan-2017 21:14:30 UTC] PHP  11. max() /home/ubuntu/workspace/wp-content/plugins/contact-form-7-mailchimp-extension/cf7-mch-ext.php:57
+[25-Jan-2017 21:15:23 UTC] PHP Warning:  max(): Array must contain at least one element in /home/ubuntu/workspace/wp-content/plugins/contact-form-7-mailchimp-extension/cf7-mch-ext.php on line 57
+[25-Jan-2017 21:15:23 UTC] PHP Stack trace:
+[25-Jan-2017 21:15:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[25-Jan-2017 21:15:23 UTC] PHP   2. WP_List_Table->display() /home/ubuntu/workspace/wp-admin/plugins.php:534
+[25-Jan-2017 21:15:23 UTC] PHP   3. WP_List_Table->display_rows_or_placeholder() /home/ubuntu/workspace/wp-admin/includes/class-wp-list-table.php:1141
+[25-Jan-2017 21:15:23 UTC] PHP   4. WP_Plugins_List_Table->display_rows() /home/ubuntu/workspace/wp-admin/includes/class-wp-list-table.php:1213
+[25-Jan-2017 21:15:23 UTC] PHP   5. WP_Plugins_List_Table->single_row() /home/ubuntu/workspace/wp-admin/includes/class-wp-plugins-list-table.php:536
+[25-Jan-2017 21:15:23 UTC] PHP   6. apply_filters() /home/ubuntu/workspace/wp-admin/includes/class-wp-plugins-list-table.php:720
+[25-Jan-2017 21:15:23 UTC] PHP   7. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[25-Jan-2017 21:15:23 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:300}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:300
+[25-Jan-2017 21:15:23 UTC] PHP   9. mc_settings_link() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:300
+[25-Jan-2017 21:15:23 UTC] PHP  10. mc_get_latest_item() /home/ubuntu/workspace/wp-content/plugins/contact-form-7-mailchimp-extension/cf7-mch-ext.php:67
+[25-Jan-2017 21:15:23 UTC] PHP  11. max() /home/ubuntu/workspace/wp-content/plugins/contact-form-7-mailchimp-extension/cf7-mch-ext.php:57
