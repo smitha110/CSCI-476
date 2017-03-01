@@ -4686,6 +4686,8 @@ body.mobile .main {min-height:0;}
 	}
 
 }
-
-
+.briefHistory div{
+	display: flex;
+	justify-content: center;
+}
 /* FIN! */

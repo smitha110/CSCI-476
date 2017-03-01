@@ -59,3 +59,29 @@
 [25-Jan-2017 21:15:23 UTC] PHP   9. mc_settings_link() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:300
 [25-Jan-2017 21:15:23 UTC] PHP  10. mc_get_latest_item() /home/ubuntu/workspace/wp-content/plugins/contact-form-7-mailchimp-extension/cf7-mch-ext.php:67
 [25-Jan-2017 21:15:23 UTC] PHP  11. max() /home/ubuntu/workspace/wp-content/plugins/contact-form-7-mailchimp-extension/cf7-mch-ext.php:57
+[01-Mar-2017 16:07:48 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, boolean given in /home/ubuntu/workspace/wp-content/plugins/mesh/class.mesh-templates.php on line 117
+[01-Mar-2017 16:07:48 UTC] PHP Stack trace:
+[01-Mar-2017 16:07:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[01-Mar-2017 16:07:48 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/plugins.php:10
+[01-Mar-2017 16:07:48 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[01-Mar-2017 16:07:48 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[01-Mar-2017 16:07:48 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:92
+[01-Mar-2017 16:07:48 UTC] PHP   6. do_action() /home/ubuntu/workspace/wp-settings.php:449
+[01-Mar-2017 16:07:48 UTC] PHP   7. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[01-Mar-2017 16:07:48 UTC] PHP   8. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:323
+[01-Mar-2017 16:07:48 UTC] PHP   9. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[01-Mar-2017 16:07:48 UTC] PHP  10. Mesh_Templates->init() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[01-Mar-2017 16:07:48 UTC] PHP  11. array_keys() /home/ubuntu/workspace/wp-content/plugins/mesh/class.mesh-templates.php:117
+[01-Mar-2017 16:07:48 UTC] PHP Warning:  array_merge(): Argument #2 is not an array in /home/ubuntu/workspace/wp-content/plugins/mesh/class.mesh-templates.php on line 118
+[01-Mar-2017 16:07:48 UTC] PHP Stack trace:
+[01-Mar-2017 16:07:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[01-Mar-2017 16:07:48 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/plugins.php:10
+[01-Mar-2017 16:07:48 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[01-Mar-2017 16:07:48 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[01-Mar-2017 16:07:48 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:92
+[01-Mar-2017 16:07:48 UTC] PHP   6. do_action() /home/ubuntu/workspace/wp-settings.php:449
+[01-Mar-2017 16:07:48 UTC] PHP   7. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[01-Mar-2017 16:07:48 UTC] PHP   8. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:323
+[01-Mar-2017 16:07:48 UTC] PHP   9. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[01-Mar-2017 16:07:48 UTC] PHP  10. Mesh_Templates->init() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[01-Mar-2017 16:07:48 UTC] PHP  11. array_merge() /home/ubuntu/workspace/wp-content/plugins/mesh/class.mesh-templates.php:118

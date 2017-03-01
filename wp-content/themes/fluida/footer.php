@@ -18,7 +18,7 @@
 	</div><!-- #main -->
 
 	<footer id="footer" class="cryout" role="contentinfo" <?php cryout_schema_microdata( 'footer' );?>>
-		<?php cryout_master_footer_hook(); ?>
+		<?php cryout_master_footer_hook(); ?> 
 	</footer>
 
 	<?php wp_footer(); ?>
