@@ -85,3 +85,32 @@
 [01-Mar-2017 16:07:48 UTC] PHP   9. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
 [01-Mar-2017 16:07:48 UTC] PHP  10. Mesh_Templates->init() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
 [01-Mar-2017 16:07:48 UTC] PHP  11. array_merge() /home/ubuntu/workspace/wp-content/plugins/mesh/class.mesh-templates.php:118
+[08-Mar-2017 15:47:56 UTC] PHP Fatal error:  Cannot redeclare class PHPMailer in /home/ubuntu/workspace/wp-includes/class-phpmailer.php on line 28
+[08-Mar-2017 15:47:56 UTC] PHP Stack trace:
+[08-Mar-2017 15:47:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/options-general.php:0
+[08-Mar-2017 15:47:56 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/options-general.php:10
+[08-Mar-2017 15:47:56 UTC] PHP   3. do_action() /home/ubuntu/workspace/wp-admin/admin.php:222
+[08-Mar-2017 15:47:56 UTC] PHP   4. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[08-Mar-2017 15:47:56 UTC] PHP   5. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:323
+[08-Mar-2017 15:47:56 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:47:56 UTC] PHP   7. GMAIL_SMTP->options_page() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 15:47:56 UTC] PHP   8. GMAIL_SMTP->test_email_settings() /home/ubuntu/workspace/wp-content/plugins/gmail-smtp/main.php:112
+[08-Mar-2017 15:47:56 UTC] PHP   9. wp_mail() /home/ubuntu/workspace/wp-content/plugins/gmail-smtp/main.php:171
+[08-Mar-2017 16:26:34 UTC] PHP Fatal error:  Cannot redeclare class PHPMailer in /home/ubuntu/workspace/wp-includes/class-phpmailer.php on line 28
+[08-Mar-2017 16:26:34 UTC] PHP Stack trace:
+[08-Mar-2017 16:26:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/options-general.php:0
+[08-Mar-2017 16:26:34 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/options-general.php:10
+[08-Mar-2017 16:26:34 UTC] PHP   3. do_action() /home/ubuntu/workspace/wp-admin/admin.php:222
+[08-Mar-2017 16:26:34 UTC] PHP   4. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[08-Mar-2017 16:26:34 UTC] PHP   5. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:323
+[08-Mar-2017 16:26:34 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 16:26:34 UTC] PHP   7. WP_Email_Smtp->create_admin_page() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 16:26:51 UTC] PHP Fatal error:  Cannot redeclare class PHPMailer in /home/ubuntu/workspace/wp-includes/class-phpmailer.php on line 28
+[08-Mar-2017 16:26:51 UTC] PHP Stack trace:
+[08-Mar-2017 16:26:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/options-general.php:0
+[08-Mar-2017 16:26:51 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/options-general.php:10
+[08-Mar-2017 16:26:51 UTC] PHP   3. do_action() /home/ubuntu/workspace/wp-admin/admin.php:222
+[08-Mar-2017 16:26:51 UTC] PHP   4. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[08-Mar-2017 16:26:51 UTC] PHP   5. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:323
+[08-Mar-2017 16:26:51 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[08-Mar-2017 16:26:51 UTC] PHP   7. WP_Email_Smtp->create_admin_page() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
