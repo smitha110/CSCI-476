@@ -2,7 +2,6 @@
 
 
 
-<?php get_header(); ?>
 <style type="text/css">
 	div.about{
    			 float: right;
@@ -13,7 +12,10 @@
 
 </style>
 
+
+
 		<div id="container" class="<?php echo fluida_get_layout_class(); ?>">
+			
 
 		<main id="main" role="main" class="main">
 			<?php cryout_before_content_hook(); ?>
@@ -27,7 +29,6 @@
 
 	</div><!-- #container -->
 	
-	
+	<?php get_footer(); ?>
 
 
-<?php get_footer(); ?>

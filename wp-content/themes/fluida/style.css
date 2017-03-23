@@ -4224,6 +4224,7 @@ a.continue-reading-link:hover span:after {
 body.mobile {-webkit-text-size-adjust: 100%;} /* Iphone browser fix*/
 body.mobile .main {min-height:0;}
 
+
 @media (min-width: 1152px) {
 	body.admin-bar.fluida-fixed-menu #site-header-main {
 		margin-top: 32px;

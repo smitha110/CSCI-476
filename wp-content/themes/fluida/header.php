@@ -26,6 +26,7 @@
 
 		<div id="site-header-main">
 			<div id="site-header-main-inside">
+				
 
 				<nav id="mobile-menu">
 					<span id="nav-cancel"><i class="blicon-cross3"></i></span>
@@ -42,13 +43,16 @@
 				<nav id="access" role="navigation"  aria-label="Primary Menu" <?php cryout_schema_microdata( 'menu' ); ?>>
 					<?php cryout_access_hook();?>
 				</nav><!-- #access -->
-
 			</div><!-- #site-header-main-inside -->
 		</div><!-- #site-header-main -->
 
-		<div id="header-image-main">
-			<div id="header-image-main-inside">
-				<?php cryout_headerimage_hook(); ?>
+    	<div id="header-image-main">
+	 		<div id="header-image-main-inside">
+				
+				<?php
+					if (is_page('About Weeping Mary Baptist Church'))
+					cryout_headerimage_hook(); ?>      <!--Shows the header image only on the homepage-->
+				
 			</div><!-- #header-image-main-inside -->
 		</div><!-- #header-image-main -->
 

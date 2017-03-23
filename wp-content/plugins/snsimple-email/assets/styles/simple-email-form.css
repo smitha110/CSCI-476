@@ -1,0 +1,53 @@
+#sef-form{
+  display: block;
+  width: 100%;
+}
+
+#sef-form p{
+  font-style: italic;
+  font-size: .9em;
+}
+
+#sef-message{
+  background: #f9f9f9;
+  box-sizing: border-box;
+  display: none;
+  margin-bottom: 15px;
+  padding: 15px;
+  width: 100%;
+}
+#sef-message.success{
+  border-top: solid 5px #3c763d;
+  color: #3c763d;
+}
+#sef-message.error{
+  border-top: solid 5px #a94442;
+  color: #a94442;
+}
+
+.sef-form-group{
+  display: block;
+  width: 100%;
+  padding-bottom: 15px;
+}
+
+.sef-form-group input{
+  width: 100%;
+}
+.sef-form-group textarea{
+  height: 120px;
+  width: 100%;
+}
+
+.sef-form-group.has-error label{
+  color: #a94442;
+}
+
+.sef-form-group.has-error input,
+.sef-form-group.has-error textarea{
+  border-color: #a94442;
+}
+.sef-form-group.has-error input:focus,
+.sef-form-group.has-error textarea:focus{
+  border-color: #843534;
+}
